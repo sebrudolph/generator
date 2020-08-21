@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+	<h1 class="h3 mb-0 text-gray-800">Content Scrapping Request- {{ request.user }}</h1>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      	<h5> Instructions </h5>
+          <ul>
+    <li> Make your request </li>
+    <li> Write us a message lettings us know you've requested it. You can do it via Whatsapp <a href="https://api.whatsapp.com/send?phone=31616924807&text=Channel%20Generator:%20I%20just%20created%20a%20scrapping%20request" target="_blank">here</a></li>
+    <li> Wait until we scrape the contents (max. 2 working days) </li>
+    <li> When you recieve our ok, click on the botton "Scrape Now" </li>
+    <li> Voila! Go to "Manage Contents" to view and delete those you don't want.</li>
+  <ul>
+<br><br>
+
+        <form method='post' action='' enctype='multipart/form-data'>{% csrf_token %}
+  		<div class="form-group">
+   		 <label for="exampleInputEmail1">Request description</label> {{ form.request }} <br>
+        <small> Insert all the instagram accounts you want to get content from, separated by commas (open accounts please). <strong>Maximum 5 per request. </strong> We will look for 200 contents for each account and then filter via our quality filters. Please note the this process is not exact, as Instagram sometimes blocks the scrapping of some accounts.</small> <br>
+  		</div>
+
+  		<button type="submit" class="btn btn-primary">Submit Request</button>
+		</form>
+
+			{% for obj in object_list %}
+               <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Request: {{ obj.request }}</h6> <br>
+                  <h6 class="m-0 font-weight-bold text-primary">Contents per account: {{ obj.request_number }}</h6><br>
+                  <h6 class="m-0 font-weight-bold text-primary">Status: {{ obj.status }}</h6> <br>
+ 
+                  {% if obj.status == 'Requested, waiting for dataset to be uploaded' %}
+                      <div><a href='' class="btn btn-primary">Scrape</a></div>
+                        <small> Scrapping is only possible when Status is set to 'Dataset uploaded'. Until then, the button will not work</small> 
+                  {% endif %}
+
+                  {% if obj.status == 'Dataset uploaded. Please proceed to click on scrape button' %}
+                      <div ><a href='{{ obj.id }}/fetch_content' class="btn btn-primary">Scrape Now</a></div>
+                  {% endif %}
+                  
+                  {% if obj.status == 'Dataset used' %}
+                        <small> Scrape already done! {{ obj.quantity_contents }} Contents scraped and stored</small>
+                  {% endif %}
+                </div>
+              </div>
+            {% endfor %}
+
+{% endblock %}
+
+
+
+Pagination script for later
+
+
+
+	<div class="pagination">
+		<span class="step-links">
+		{% if page_obj.has_previous %}
+			<a href="?page=1">&laquo; first</a>
+			<a href="?page={{ page_obj.previous_page_number }}">previous</a>
+			{% endif %}
+
+			<span class="current">
+			Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+			</span>
+
+			{% if page_obj.has_next %}
+			<a href="?page={{ page_obj.next_page_number }}">next</a>
+			<a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+		{% endif %}
+		</span>
+	</div>	

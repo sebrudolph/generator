@@ -1,0 +1,49 @@
+2020-08-06 11:31:39,939 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-06 11:31:39,940 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\bot\bot.py
+2020-08-06 11:31:39,940 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-08-06 11:31:40,172 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-08-06 11:31:40,349 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-08-06 11:31:40,541 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-08-06 11:31:40,729 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-08-06 11:31:42,506 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-08-06 11:31:42,506 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/2440677292/9dhH386u1f/", "api_path": "/challenge/2440677292/9dhH386u1f/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail", "error_type": "checkpoint_challenge_required"}'
+2020-08-06 11:31:42,506 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-06 11:31:42,506 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-06 11:31:42,507 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2020-08-06 11:31:47,787 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-08-06 11:31:48,048 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-08-06 11:31:48,257 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-08-06 11:31:48,437 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-08-06 11:31:48,622 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-08-06 11:31:49,911 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-08-06 11:31:49,911 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/2440677292/V8ESGpCTQn/", "api_path": "/challenge/2440677292/V8ESGpCTQn/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail", "error_type": "checkpoint_challenge_required"}'
+2020-08-06 11:31:49,911 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-06 11:31:49,911 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2020-08-06 11:31:49,913 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2020-08-06 11:32:24,422 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-06 11:32:24,422 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-06 11:32:24,423 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=e752e0e3-d108-407f-b5c2-f07f0000bed1
+- uuid=9c721ac7-9e77-4bba-9152-ac7c7c0ecd03
+- client_session_id=07ae3f33-5fb4-4fa7-b0c6-e26fa54977b9
+- device_id=android-5ddf6083ddeebf63
+2020-08-06 11:32:24,423 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-06 11:32:25,871 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-06 11:32:26,327 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-06 11:32:26,519 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-08-06 11:32:26,707 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-08-06 11:32:27,002 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-08-06 11:32:27,183 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-08-06 11:32:27,689 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-08-06 11:32:27,873 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-08-06 11:32:28,096 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-08-06 11:32:28,099 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'puppies4nations'!
+2020-08-06 11:32:28,099 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-06 11:32:28,366 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/noriyukisuenaga/usernameinfo/ returned response: <Response [200]>
+2020-08-06 11:32:29,044 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/7503441380/info/ returned response: <Response [200]>
+2020-08-06 11:32:29,312 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/7503441380/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03 returned response: <Response [200]>
+2020-08-06 11:33:17,661 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-06 11:33:17,662 - instabot version: 0.117.0 (bot) - INFO - Total follows: 10/52
+2020-08-06 11:33:17,662 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 6/99
+2020-08-06 11:33:17,662 - instabot version: 0.117.0 (bot) - INFO - Total requests: 390

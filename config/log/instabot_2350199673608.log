@@ -1,0 +1,18 @@
+2020-08-17 11:13:13,278 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-17 11:13:13,279 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\bot\bot.py
+2020-08-17 11:13:17,875 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-17 11:13:17,876 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-17 11:13:17,876 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=bc145835-28eb-4a14-89a4-7ac029c350d1
+- uuid=e1976ccd-0a36-4256-9d53-a00eacfee537
+- client_session_id=cf2252cc-277c-47d4-bb65-b54a6afb3365
+- device_id=android-34cf8b3dcd266555
+2020-08-17 11:13:17,877 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-17 11:13:19,447 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-17 11:13:20,243 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-17 11:13:20,245 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'tripellytrips'!
+2020-08-17 11:13:20,245 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-17 11:14:08,894 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-17 11:14:08,895 - instabot version: 0.117.0 (bot) - INFO - Total follows: 2/92
+2020-08-17 11:14:08,895 - instabot version: 0.117.0 (bot) - INFO - Total requests: 430

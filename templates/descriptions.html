@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+	<h1 class="h3 mb-0 text-gray-800">Change you your Descriptions - {{ request.user }}</h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      	<h5> Total Descriptions: {{ total_descriptions_database }} </h5>
+      	<form method='post' action='' enctype='multipart/form-data'>{% csrf_token %}
+  		<div class="form-group">
+   		 <label for="exampleInputEmail1">Add a new Description</label> {{ form_description.title }}
+  		</div>
+  		<button type="submit" class="btn btn-primary">Submit description</button>
+		</form>
+
+			{% for obj in object_list_description %}
+               <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">{{ obj.title }}</h6>
+                  <div align="right"><a href='{{ obj.id }}/delete-description' class="btn btn-primary">Delete</a></div>
+
+                </div>
+              </div>
+            {% endfor %}
+
+
+{% endblock %}
+
+
+Pagination script for later
+
+
+	<div class="pagination">
+		<span class="step-links">
+		{% if page_obj.has_previous %}
+			<a href="?page=1">&laquo; first</a>
+			<a href="?page={{ page_obj.previous_page_number }}">previous</a>
+			{% endif %}
+
+			<span class="current">
+			Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+			</span>
+
+			{% if page_obj.has_next %}
+			<a href="?page={{ page_obj.next_page_number }}">next</a>
+			<a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+		{% endif %}
+		</span>
+	</div>	

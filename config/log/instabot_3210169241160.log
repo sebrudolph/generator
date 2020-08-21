@@ -1,0 +1,38 @@
+2020-08-07 11:09:12,537 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-07 11:09:12,538 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\bot\bot.py
+2020-08-07 11:11:09,672 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-07 11:11:09,672 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-07 11:11:09,672 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=bc145835-28eb-4a14-89a4-7ac029c350d1
+- uuid=e1976ccd-0a36-4256-9d53-a00eacfee537
+- client_session_id=1756aea9-9b06-491f-80ff-56dd29470e55
+- device_id=android-34cf8b3dcd266555
+2020-08-07 11:11:09,673 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-07 11:11:11,557 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-07 11:11:12,516 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-07 11:11:12,726 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-08-07 11:11:12,936 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-08-07 11:11:13,335 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-08-07 11:11:13,529 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-08-07 11:11:14,178 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-08-07 11:11:14,660 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-08-07 11:11:14,976 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-08-07 11:11:14,978 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'tripellytrips'!
+2020-08-07 11:11:14,978 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-07 11:11:14,993 - instabot version: 0.117.0 (bot_follow) - INFO - Going to follow `user_id` 4004097674.
+2020-08-07 11:11:14,994 - instabot version: 0.117.0 (api) - DEBUG - post data: {"user_id": "4004097674", "radio_type": "wifi-none", "device_id": "android-34cf8b3dcd266555", "_uuid": "e1976ccd-0a36-4256-9d53-a00eacfee537", "_uid": "23903893713", "_csrftoken": "Jvy14iXS4dgrhHqqece6xYK3VMvQmQSO"}
+2020-08-07 11:11:16,160 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: friendships/create/4004097674/ returned response: <Response [200]>
+2020-08-07 11:11:16,160 - instabot version: 0.117.0 (bot_follow) - INFO - Followed `user_id` 4004097674.
+2020-08-07 11:11:16,917 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/23903893713/info/ returned response: <Response [200]>
+2020-08-07 11:11:17,435 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/23903893713/following/?max_id=&ig_sig_key_version=4&rank_token=23903893713_e1976ccd-0a36-4256-9d53-a00eacfee537 returned response: <Response [200]>
+2020-08-07 11:11:27,785 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/4004097674/info/ returned response: <Response [200]>
+2020-08-07 11:11:27,785 - instabot version: 0.117.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 4004097674 with username gaston.gadea.
+2020-08-07 11:11:30,025 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: friendships/destroy/4004097674/ returned response: <Response [200]>
+2020-08-07 11:11:30,026 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowed `user_id` 4004097674 with username gaston.gadea
+2020-08-07 11:11:46,045 - instabot version: 0.117.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 4004097674 with username gaston.gadea.
+2020-08-07 11:12:00,783 - instabot version: 0.117.0 (bot_follow) - INFO - Going to follow `user_id` 513470596.
+2020-08-07 11:12:54,610 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-07 11:12:54,611 - instabot version: 0.117.0 (bot) - INFO - Total follows: 1/68
+2020-08-07 11:12:54,611 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 1/88
+2020-08-07 11:12:54,612 - instabot version: 0.117.0 (bot) - INFO - Total requests: 391

@@ -1,0 +1,61 @@
+2020-08-06 10:57:00,435 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-06 10:57:00,436 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\bot\bot.py
+2020-08-06 10:57:05,970 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-08-06 10:57:06,210 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-08-06 10:57:06,383 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-08-06 10:57:06,562 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-08-06 10:57:06,743 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-08-06 10:57:07,946 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-08-06 10:57:08,222 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-08-06 10:57:08,407 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-08-06 10:57:08,556 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2020-08-06 10:57:08,556 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'tripellytrips'!
+2020-08-06 10:57:08,557 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2020-08-06 10:57:08,565 - instabot version: 0.117.0 (api_login) - ERROR - Exception raised: 'ds_user_id'
+Traceback (most recent call last):
+  File "C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\api\api_login.py", line 144, in login_flow
+    check_flow.append(self.sync_device_features())
+  File "C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\api\api.py", line 381, in sync_device_features
+    data["_uid"] = self.user_id
+  File "C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\api\api.py", line 630, in user_id
+    return self.cookie_dict["ds_user_id"]
+KeyError: 'ds_user_id'
+
+2020-08-06 10:57:08,565 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-06 10:57:08,590 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-08-06 10:57:08,779 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-08-06 10:57:09,973 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [200]>
+2020-08-06 10:57:09,973 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'tripellytrips'!
+2020-08-06 10:57:09,973 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2020-08-06 10:57:10,187 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-08-06 10:57:10,404 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-08-06 10:57:10,627 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: zr/token/result/?device_id=android-34cf8b3dcd266555&token_hash=&custom_device_id=android-34cf8b3dcd266555&fetch_reason=token_expired returned response: <Response [200]>
+2020-08-06 10:57:10,848 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: multiple_accounts/get_account_family/ returned response: <Response [200]>
+2020-08-06 10:57:11,037 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-08-06 10:57:11,758 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-06 10:57:11,916 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: igtv/browse_feed/?prefetch=1 returned response: <Response [200]>
+2020-08-06 10:57:11,917 - instabot version: 0.117.0 (api_login) - ERROR - Exception raised: 'csrftoken'
+Traceback (most recent call last):
+  File "C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\api\api_login.py", line 166, in login_flow
+    check_flow.append(self.creatives_ar_class())
+  File "C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\api\api.py", line 163, in creatives_ar_class
+    return creatives_ar_class(self)
+  File "C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\api\api_login.py", line 97, in creatives_ar_class
+    "_csrftoken": self.token,
+  File "C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\api\api.py", line 626, in token
+    return self.cookie_dict["csrftoken"]
+KeyError: 'csrftoken'
+
+2020-08-06 10:57:11,918 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-06 10:58:54,390 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-06 10:58:54,391 - instabot version: 0.117.0 (bot) - INFO - Total follows: 10/72
+2020-08-06 10:58:54,391 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 6/55
+2020-08-06 10:58:54,392 - instabot version: 0.117.0 (bot) - INFO - Total requests: 378
+2020-08-06 10:58:54,394 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-06 10:58:54,394 - instabot version: 0.117.0 (bot) - INFO - Total follows: 10/72
+2020-08-06 10:58:54,395 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 6/55
+2020-08-06 10:58:54,395 - instabot version: 0.117.0 (bot) - INFO - Total requests: 378
+2020-08-06 10:58:54,396 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-06 10:58:54,396 - instabot version: 0.117.0 (bot) - INFO - Total follows: 10/72
+2020-08-06 10:58:54,397 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 6/55
+2020-08-06 10:58:54,397 - instabot version: 0.117.0 (bot) - INFO - Total requests: 378

@@ -1,0 +1,31 @@
+2020-08-07 11:13:14,072 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-07 11:13:14,074 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\bot\bot.py
+2020-08-07 11:14:13,778 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-07 11:14:13,778 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-07 11:14:13,778 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=e752e0e3-d108-407f-b5c2-f07f0000bed1
+- uuid=9c721ac7-9e77-4bba-9152-ac7c7c0ecd03
+- client_session_id=5661e13e-c26c-4a42-bfeb-8c7c119cd080
+- device_id=android-5ddf6083ddeebf63
+2020-08-07 11:14:13,779 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-07 11:14:15,529 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-07 11:14:16,067 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-07 11:14:16,610 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-08-07 11:14:16,805 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-08-07 11:14:17,250 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-08-07 11:14:17,477 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-08-07 11:14:18,068 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-08-07 11:14:18,250 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-08-07 11:14:19,434 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-08-07 11:14:19,436 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'puppies4nations'!
+2020-08-07 11:14:19,437 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-07 11:14:19,795 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/moca_golden_kennel/usernameinfo/ returned response: <Response [200]>
+2020-08-07 11:14:21,022 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/39443250922/info/ returned response: <Response [200]>
+2020-08-07 11:14:21,301 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/39443250922/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03 returned response: <Response [200]>
+2020-08-07 11:14:21,562 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/39443250922/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03&max_id=QVFCTmQzR2NUb3FIdDUzdnJyS3lETHRLNWZtdDNmbEFWelhTTmJtS2xqV0Y4QWNKWGtOd1VuZjFlbnZWa0loOWtkTW1jV2c1SURKSDllWkI3UFZXbzRDaw== returned response: <Response [200]>
+2020-08-07 11:14:21,841 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/39443250922/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03&max_id=QVFENk16cTFtaG1VaXNVX0d3S3EzeVl6bHppMGlSSk54SFhOcUVJeHZqWUNuN2RyWEd3N1RrQXM3bG9kTWJpSURyRllQQzhfZnVBa1FKVXR5R3BERVhaZA== returned response: <Response [200]>
+2020-08-07 11:25:15,034 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-07 11:25:15,035 - instabot version: 0.117.0 (bot) - INFO - Total follows: 10/66
+2020-08-07 11:25:15,035 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 6/96
+2020-08-07 11:25:15,036 - instabot version: 0.117.0 (bot) - INFO - Total requests: 397

@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+	<h1 class="h3 mb-0 text-gray-800">How it Works</h1>
+</div>
+
+<div ><p>Hi, {{ request.user }}</p></div>
+
+<div >
+	<p>The Channel Generations of Stallions is a tool you can use to boost your Instagram Account. It was built to automate the process of growing a reposting account, to build up your audience by sharing great content. </p>
+
+	<p>It has 3 main engines: the Content Engine, the Follow Engine and the Unfollow Engine. The 3 of them work in an automated way, but also in manually. In the dashboard you can find these options. In order to turn on the automatic engines, turn them ON. Before editing the settings, please turn them off and when you finish you can turn them on again. To do individual postings/ follows/ unfollows, just click on the corresopnding button on the Actions tab in your dashboard. </p>
+</div>
+
+<div>
+	<h2 class="h3 mb-0 text-gray-800">Content Engine</h2>
+
+	<p>The Content Engine, when turned ON, posts 3 times a day, one in the early morning, anoother one in the midday and the last one at the eventing</p>
+
+	<p>In order to work, you need to previously:</p>
+	<ul>
+		<li> Fill up the settings page (your instagram details and how many hashtags per post you want) </li>
+		<li> Add the hashtags list (be sure to add more hashtags than you require in the settings) </li>
+		<li> Add the description list </li>
+		<li> Have available contents. For this, you will need to require scrapping the contents. Please go to the Scrapping Requests Tab to ask for them. You can only scrape contents once a month.</li>
+		<li> When you have all this, turn ON the Engine on you Dashboard </li>
+	<ul>
+
+
+</div>
+
+<div>
+	<h2 class="h3 mb-0 text-gray-800">Follow Engine</h2>
+
+	<p>The follow engine, when turned ON, follows users between 8AM and 8PM </p>
+
+	<p>In order to work, you need to previously:</p>
+	<ul>
+		<li> Fill up the settings page (your instagram details and the follow settings) </li>
+		<li> Have available users to follow. For this you need to go to the Follow Sources Tab, add accounts and click on fetch. This will look for those account's followers and store their ids on your database. The maximum Followers you can store is 8000 per day, so please look for accounts that has less than this number of followers.</li>
+		<li> When you have all this, turn ON the Engine on you Dashboard </li>
+	<ul>
+</div>
+
+<div>
+	<h2 class="h3 mb-0 text-gray-800">Unfollow Engine</h2>
+
+	<p>The unfollow engine, when turned ON, unfollows users between 8AM and 8PM </p>
+
+	<p>In order to work, you need to previously:</p>
+	<ul>
+		<li> Fill up the settings page (your instagram details and the follow settings) </li>
+		<li> Have followed people in the past with the tool. The system will look for people you followed AND checks if the time you set up between follow and unfollow has passed. If so, It will add the id to the to-unfollow list. You can see this status in your dashboard. </li>
+		<li> When you have all this, turn ON the Engine on you Dashboard </li>
+	<ul>
+
+</div>
+
+{% endblock %}
+
+
+

@@ -1,0 +1,53 @@
+2020-08-07 09:44:17,391 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-07 09:44:17,392 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\bot\bot.py
+2020-08-07 10:28:14,302 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-07 10:28:14,303 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-07 10:28:14,303 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=bc145835-28eb-4a14-89a4-7ac029c350d1
+- uuid=e1976ccd-0a36-4256-9d53-a00eacfee537
+- client_session_id=7ffc329b-ad65-4323-883e-29a774c51198
+- device_id=android-34cf8b3dcd266555
+2020-08-07 10:28:14,304 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-07 10:28:16,130 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-07 10:28:17,615 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-07 10:28:18,127 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-08-07 10:28:18,345 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-08-07 10:28:18,768 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-08-07 10:28:18,978 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-08-07 10:28:19,801 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-08-07 10:28:31,310 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-08-07 10:28:32,661 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-08-07 10:28:32,663 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'tripellytrips'!
+2020-08-07 10:28:32,663 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-07 10:28:33,003 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/noriyukisuenaga/usernameinfo/ returned response: <Response [200]>
+2020-08-07 10:28:34,215 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/7503441380/info/ returned response: <Response [200]>
+2020-08-07 10:28:34,766 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/7503441380/followers/?rank_token=23903893713_e1976ccd-0a36-4256-9d53-a00eacfee537 returned response: <Response [200]>
+2020-08-07 10:56:44,151 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-07 10:56:44,151 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-07 10:56:44,152 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=bc145835-28eb-4a14-89a4-7ac029c350d1
+- uuid=e1976ccd-0a36-4256-9d53-a00eacfee537
+- client_session_id=1756aea9-9b06-491f-80ff-56dd29470e55
+- device_id=android-34cf8b3dcd266555
+2020-08-07 10:56:44,152 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-07 10:56:45,859 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-07 10:56:46,688 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-07 10:56:46,690 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'tripellytrips'!
+2020-08-07 10:56:46,691 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-07 10:56:47,016 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/rudolphsebas/usernameinfo/ returned response: <Response [200]>
+2020-08-07 10:56:48,192 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/2440677292/info/ returned response: <Response [200]>
+2020-08-07 10:56:48,516 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=23903893713_e1976ccd-0a36-4256-9d53-a00eacfee537 returned response: <Response [200]>
+2020-08-07 10:56:48,882 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=23903893713_e1976ccd-0a36-4256-9d53-a00eacfee537&max_id=QVFEUnpHWUFHQjBJYmI2NGhQV3J5RG5nSlFJMDVPWURER2tkQmJXWGlPTEVwc3pjbDhYUVRQMkRtRlFobDluajBYUDh0MTNqMUpOSTduVHVJLVBjZmlfcA== returned response: <Response [200]>
+2020-08-07 10:56:49,576 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=23903893713_e1976ccd-0a36-4256-9d53-a00eacfee537&max_id=QVFDSzRDVkNMU0p3djlfM2hTaEk5T3AzOWhXV2NVVjdUSFJJQ1ZJcHlJdmRDTU1tX29ESldUOUYyWUJMcjVPdGx5YVN5NHRNcmMxMy0yeDlfMFdjREVIVQ== returned response: <Response [200]>
+2020-08-07 10:56:49,872 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=23903893713_e1976ccd-0a36-4256-9d53-a00eacfee537&max_id=QVFBU2lpLWFydHVGbUtHVE04WG5ZMTE2Q3RzNEx0bzVYeV9zanE3cGhfTWFGdUp2djB1SjhqOTRoS1J6Ml93aWVEbWdsMDUyT2tIakstcGN6d0piSjVadg== returned response: <Response [200]>
+2020-08-07 10:56:50,221 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=23903893713_e1976ccd-0a36-4256-9d53-a00eacfee537&max_id=QVFEXzhMTzVJLUhhdUpzU0FqQlVCTlE0SmY3UlQ2NEdHNG5jNE56ZzI4ekI1LVJXeDJORTYyYTE3RlBEcDJVTlA1VlkwVHRTNV8yYlhVSTdtaUZSTXRoVQ== returned response: <Response [200]>
+2020-08-07 11:01:01,911 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-07 11:01:01,912 - instabot version: 0.117.0 (bot) - INFO - Total follows: 10/53
+2020-08-07 11:01:01,912 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 6/93
+2020-08-07 11:01:01,913 - instabot version: 0.117.0 (bot) - INFO - Total requests: 386
+2020-08-07 11:01:01,913 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/tripellytrips.checkpoint
+2020-08-07 11:01:01,913 - instabot version: 0.117.0 (bot) - INFO - Total follows: 10/53
+2020-08-07 11:01:01,914 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 6/93
+2020-08-07 11:01:01,914 - instabot version: 0.117.0 (bot) - INFO - Total requests: 386

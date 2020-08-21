@@ -1,0 +1,31 @@
+2020-08-03 12:11:04,681 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-03 12:11:04,682 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\bot\bot.py
+2020-08-03 12:11:04,684 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-03 12:11:04,684 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-03 12:11:04,684 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=e752e0e3-d108-407f-b5c2-f07f0000bed1
+- uuid=9c721ac7-9e77-4bba-9152-ac7c7c0ecd03
+- client_session_id=8889c782-a84f-4b63-9001-8f8fedc9efac
+- device_id=android-5ddf6083ddeebf63
+2020-08-03 12:11:04,685 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-03 12:11:05,872 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-03 12:11:06,502 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-03 12:11:06,502 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'puppies4nations'!
+2020-08-03 12:11:06,502 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-03 12:11:09,528 - instabot version: 0.117.0 (bot_follow) - INFO - Going to follow `user_id` 21130125015.
+2020-08-03 12:11:09,529 - instabot version: 0.117.0 (api) - DEBUG - post data: {"user_id": "21130125015", "radio_type": "wifi-none", "device_id": "android-5ddf6083ddeebf63", "_uuid": "9c721ac7-9e77-4bba-9152-ac7c7c0ecd03", "_uid": "38579043486", "_csrftoken": "MIhbLn1IlNphDGr7gIcJWDAH6yZl9H74"}
+2020-08-03 12:11:10,817 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: friendships/create/21130125015/ returned response: <Response [200]>
+2020-08-03 12:11:10,817 - instabot version: 0.117.0 (bot_follow) - INFO - Followed `user_id` 21130125015.
+2020-08-03 12:11:11,495 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/38579043486/info/ returned response: <Response [200]>
+2020-08-03 12:11:12,142 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/38579043486/following/?max_id=&ig_sig_key_version=4&rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03 returned response: <Response [200]>
+2020-08-03 12:11:29,918 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/9074861809/info/ returned response: <Response [200]>
+2020-08-03 12:11:29,919 - instabot version: 0.117.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 9074861809 with username follow.ohhxans.
+2020-08-03 12:11:33,148 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: friendships/destroy/9074861809/ returned response: <Response [200]>
+2020-08-03 12:11:33,148 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowed `user_id` 9074861809 with username follow.ohhxans
+2020-08-03 12:11:52,613 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/21130125015/info/ returned response: <Response [200]>
+2020-08-03 12:11:52,613 - instabot version: 0.117.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 21130125015 with username millie_the_shihpoo17368.
+2020-08-03 12:19:05,314 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-03 12:19:05,315 - instabot version: 0.117.0 (bot) - INFO - Total follows: 9/85
+2020-08-03 12:19:05,316 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 5/85
+2020-08-03 12:19:05,317 - instabot version: 0.117.0 (bot) - INFO - Total requests: 285

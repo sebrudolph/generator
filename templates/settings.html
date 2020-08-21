@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+	<h1 class="h3 mb-0 text-gray-800">Change you Follow Accounts - {{ request.user }}</h1>
+</div>
+
+
+<h5> Account Settings </h5> 
+	<p> Instagram account: {{ instagram_account }} </p>
+	<p> Instagram password: {{ instagram_password }} </p>
+<form method='post' action='' enctype='multipart/form-data'>{% csrf_token %}
+{{ form_settings_ig.as_p }}
+<input type='submit' value='Update Account Settings'/>
+</form>
+
+<br><br>
+<h5> Content Settings </h5>
+	<p> Hashtags per post: {{ hashtags_per_post }}  </p>
+
+<form method='post' action='' enctype='multipart/form-data'>{% csrf_token %}
+{{ form_settings_posting.as_p }}
+<input type='submit' value='Update Posting Settings'/>
+</form>
+
+<br><br>
+<h5> Follow/ Unfollow Settings </h5>
+	<p> Daily Follower Range: {{ min_follows_per_day }} to {{ max_follows_per_day }} </p>
+	<p> Time Lapse to Follow: {{ min_waiting_time }} to {{ max_waiting_time }} seconds </p>
+	<p> Daily Unfollower Range: {{ min_unfollows_per_day }} to {{ max_unfollows_per_day }} </p>
+	<p> Time Lapse to Unfollow: {{ min_waiting_time_unfollow }} to {{ max_waiting_time_unfollow }} seconds </p>
+	<p> Minimum days that have to pass to unfollow someone: {{ days_to_unfollow }} </p>
+
+
+<form method='post' action='' enctype='multipart/form-data'>{% csrf_token %}
+{{ form_settings.as_p }}
+<input type='submit' value='Update Follow/ Unfollow Settings'/>
+</form>
+
+
+
+
+{% endblock %}
+
+

@@ -1,0 +1,21 @@
+2020-08-18 11:33:11,112 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-18 11:33:11,112 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\bot\bot.py
+2020-08-18 11:33:27,461 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-18 11:33:27,461 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-18 11:33:27,461 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=e752e0e3-d108-407f-b5c2-f07f0000bed1
+- uuid=9c721ac7-9e77-4bba-9152-ac7c7c0ecd03
+- client_session_id=b234ef81-f70b-4cc7-a8a2-08fa83a86cad
+- device_id=android-5ddf6083ddeebf63
+2020-08-18 11:33:27,465 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-18 11:33:28,607 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-18 11:33:29,370 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-18 11:33:29,395 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'puppies4nations'!
+2020-08-18 11:33:29,403 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-18 11:33:52,122 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-08-18 11:33:52,481 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-08-18 11:33:52,489 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'static/img/46293932_224815978440210_3508161509590439039_n.jpg' is uploaded.
+2020-08-18 11:36:03,490 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-18 11:36:03,490 - instabot version: 0.117.0 (bot) - INFO - Total follows: 1/94
+2020-08-18 11:36:03,494 - instabot version: 0.117.0 (bot) - INFO - Total requests: 660

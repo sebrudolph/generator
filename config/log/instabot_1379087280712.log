@@ -1,0 +1,19 @@
+2020-08-12 14:14:36,007 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-12 14:14:36,008 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\bot\bot.py
+2020-08-12 14:14:38,941 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-12 14:14:38,942 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-12 14:14:38,942 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=e752e0e3-d108-407f-b5c2-f07f0000bed1
+- uuid=9c721ac7-9e77-4bba-9152-ac7c7c0ecd03
+- client_session_id=c633b058-b274-4fed-90d8-9e176b9bba7d
+- device_id=android-5ddf6083ddeebf63
+2020-08-12 14:14:38,947 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-12 14:14:40,787 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-12 14:14:41,469 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-12 14:14:41,472 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'puppies4nations'!
+2020-08-12 14:14:41,473 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-12 14:17:25,165 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-12 14:17:25,166 - instabot version: 0.117.0 (bot) - INFO - Total follows: 1/98
+2020-08-12 14:17:25,167 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 2/77
+2020-08-12 14:17:25,167 - instabot version: 0.117.0 (bot) - INFO - Total requests: 451

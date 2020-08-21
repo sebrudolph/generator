@@ -1,0 +1,33 @@
+2020-08-08 18:28:33,214 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-08 18:28:33,215 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\bot\bot.py
+2020-08-08 18:28:36,787 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-08 18:28:36,787 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-08 18:28:36,787 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=e752e0e3-d108-407f-b5c2-f07f0000bed1
+- uuid=9c721ac7-9e77-4bba-9152-ac7c7c0ecd03
+- client_session_id=f4a377e3-007e-4d0c-9b2a-068a35422508
+- device_id=android-5ddf6083ddeebf63
+2020-08-08 18:28:36,791 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-08 18:28:38,157 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-08 18:28:38,770 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-08 18:28:38,772 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'puppies4nations'!
+2020-08-08 18:28:38,772 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-08 18:28:38,793 - instabot version: 0.117.0 (bot_photo) - INFO - Going to download 19 medias.
+2020-08-08 18:28:41,336 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2/info/ returned response: <Response [200]>
+2020-08-08 18:28:54,410 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/3/info/ returned response: <Response [200]>
+2020-08-08 18:29:07,269 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/5/info/ returned response: <Response [400]>
+2020-08-08 18:29:07,269 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message": "Media not found or unavailable", "status": "fail"}'
+2020-08-08 18:29:07,269 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2020-08-08 18:29:07,270 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: Media not found or unavailable
+2020-08-08 18:29:07,272 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2020-08-08 18:29:10,295 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/8/info/ returned response: <Response [200]>
+2020-08-08 18:29:22,605 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/8/info/ returned response: <Response [200]>
+2020-08-08 18:29:35,260 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/2/info/ returned response: <Response [200]>
+2020-08-08 18:29:46,610 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/3/info/ returned response: <Response [200]>
+2020-08-08 18:29:58,957 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/6/info/ returned response: <Response [200]>
+2020-08-08 18:30:11,647 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: media/8/info/ returned response: <Response [200]>
+2020-08-08 18:30:23,718 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-08 18:30:23,718 - instabot version: 0.117.0 (bot) - INFO - Total follows: 6/75
+2020-08-08 18:30:23,720 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 2/99
+2020-08-08 18:30:23,727 - instabot version: 0.117.0 (bot) - INFO - Total requests: 431

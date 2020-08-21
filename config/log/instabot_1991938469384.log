@@ -1,0 +1,93 @@
+2020-08-11 15:44:14,259 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-11 15:44:14,260 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\bot\bot.py
+2020-08-11 15:45:46,961 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-11 15:45:46,962 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-11 15:45:46,962 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=6dd8ed9a-deb5-4a4d-b418-400b84fbffbf
+- uuid=138306be-87ad-42de-9a7d-0851ac58dfbc
+- client_session_id=0e4d12ae-a856-47dc-b589-5338f015a959
+- device_id=android-a4201e920dd79d83
+2020-08-11 15:45:46,962 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-11 15:45:48,497 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-11 15:45:48,962 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-11 15:45:48,963 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'rolexasajewelry'!
+2020-08-11 15:45:48,963 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry.checkpoint
+2020-08-11 15:51:32,021 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-11 15:51:32,022 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-11 15:51:32,022 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=6dd8ed9a-deb5-4a4d-b418-400b84fbffbf
+- uuid=138306be-87ad-42de-9a7d-0851ac58dfbc
+- client_session_id=0e4d12ae-a856-47dc-b589-5338f015a959
+- device_id=android-a4201e920dd79d83
+2020-08-11 15:51:32,022 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-11 15:51:33,734 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-11 15:51:34,206 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-11 15:51:34,208 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'rolexasajewelry'!
+2020-08-11 15:51:34,208 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry.checkpoint
+2020-08-11 15:51:48,127 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-11 15:51:48,127 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-11 15:51:48,127 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=6dd8ed9a-deb5-4a4d-b418-400b84fbffbf
+- uuid=138306be-87ad-42de-9a7d-0851ac58dfbc
+- client_session_id=0e4d12ae-a856-47dc-b589-5338f015a959
+- device_id=android-a4201e920dd79d83
+2020-08-11 15:51:48,127 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-11 15:51:49,303 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-11 15:51:49,763 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-11 15:51:49,764 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'rolexasajewelry'!
+2020-08-11 15:51:49,764 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry.checkpoint
+2020-08-11 15:51:49,773 - instabot version: 0.117.0 (bot_follow) - INFO - Going to follow `user_id` 25448552084.
+2020-08-11 15:51:49,773 - instabot version: 0.117.0 (api) - DEBUG - post data: {"user_id": "25448552084", "radio_type": "wifi-none", "device_id": "android-a4201e920dd79d83", "_uuid": "138306be-87ad-42de-9a7d-0851ac58dfbc", "_uid": "39401679339", "_csrftoken": "4C2zPXq35GdFmEkU7bVTyJI0IKEg3WzW"}
+2020-08-11 15:51:50,597 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: friendships/create/25448552084/ returned response: <Response [200]>
+2020-08-11 15:51:50,597 - instabot version: 0.117.0 (bot_follow) - INFO - Followed `user_id` 25448552084.
+2020-08-11 15:51:50,999 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/39401679339/info/ returned response: <Response [200]>
+2020-08-11 15:51:51,368 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/39401679339/following/?max_id=&ig_sig_key_version=4&rank_token=39401679339_138306be-87ad-42de-9a7d-0851ac58dfbc returned response: <Response [200]>
+2020-08-11 16:16:55,360 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-11 16:16:55,360 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-11 16:16:55,360 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=6dd8ed9a-deb5-4a4d-b418-400b84fbffbf
+- uuid=138306be-87ad-42de-9a7d-0851ac58dfbc
+- client_session_id=0e4d12ae-a856-47dc-b589-5338f015a959
+- device_id=android-a4201e920dd79d83
+2020-08-11 16:16:55,360 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-11 16:16:56,971 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-11 16:16:57,443 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-11 16:16:57,815 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-08-11 16:16:58,067 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-08-11 16:16:58,335 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-08-11 16:16:59,044 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-08-11 16:16:59,575 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-08-11 16:16:59,801 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-08-11 16:17:01,169 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-08-11 16:17:01,172 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'rolexasajewelry'!
+2020-08-11 16:17:01,172 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry.checkpoint
+2020-08-11 16:17:28,803 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-11 16:17:28,803 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-11 16:17:28,804 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=6dd8ed9a-deb5-4a4d-b418-400b84fbffbf
+- uuid=138306be-87ad-42de-9a7d-0851ac58dfbc
+- client_session_id=b0f9e759-3c01-4a37-9d00-fae8e6fd7b88
+- device_id=android-a4201e920dd79d83
+2020-08-11 16:17:28,809 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-11 16:17:30,256 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-11 16:17:30,694 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-11 16:17:30,695 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'rolexasajewelry'!
+2020-08-11 16:17:30,695 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry.checkpoint
+2020-08-11 16:17:51,538 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-08-11 16:17:51,797 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-08-11 16:17:51,798 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'static/img/104984053_2603085933283012_7101056001622303750_n.jpg' is uploaded.
+2020-08-11 16:22:04,003 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry.checkpoint
+2020-08-11 16:22:04,004 - instabot version: 0.117.0 (bot) - INFO - Total requests: 37
+2020-08-11 16:22:04,004 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry.checkpoint
+2020-08-11 16:22:04,005 - instabot version: 0.117.0 (bot) - INFO - Total requests: 37
+2020-08-11 16:22:04,005 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry.checkpoint
+2020-08-11 16:22:04,006 - instabot version: 0.117.0 (bot) - INFO - Total requests: 37
+2020-08-11 16:22:04,006 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry.checkpoint
+2020-08-11 16:22:04,006 - instabot version: 0.117.0 (bot) - INFO - Total requests: 37
+2020-08-11 16:22:04,007 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry.checkpoint
+2020-08-11 16:22:04,007 - instabot version: 0.117.0 (bot) - INFO - Total requests: 37

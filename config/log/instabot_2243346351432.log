@@ -1,0 +1,32 @@
+2020-08-05 18:40:41,309 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-05 18:40:41,309 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\bot\bot.py
+2020-08-05 18:40:41,309 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-05 18:40:41,309 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-05 18:40:41,309 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=e752e0e3-d108-407f-b5c2-f07f0000bed1
+- uuid=9c721ac7-9e77-4bba-9152-ac7c7c0ecd03
+- client_session_id=cfe3efd3-a7da-4b9e-99c1-41f5179dd2ae
+- device_id=android-5ddf6083ddeebf63
+2020-08-05 18:40:41,309 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-05 18:40:42,768 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-05 18:40:43,353 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-05 18:40:43,354 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'puppies4nations'!
+2020-08-05 18:40:43,354 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-05 18:41:03,591 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/rudolphsebas/usernameinfo/ returned response: <Response [200]>
+2020-08-05 18:41:04,714 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/2440677292/info/ returned response: <Response [200]>
+2020-08-05 18:41:04,986 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03 returned response: <Response [200]>
+2020-08-05 18:41:05,290 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03&max_id=QVFDSTlLZ29hSlBCdTdKVFZzdnNJM0RFWEdDVUVtUzVSRlAxbjV4Y1RaV29lX1dWQU1ILUJCU0l6NE4yRmxicUx3anVtblBPVmdHNmVrdXk5ei1XeXFTTg== returned response: <Response [200]>
+2020-08-05 18:41:05,582 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03&max_id=QVFCUmx6NVRLQUdOLVdZZUpzaGlPZ2UxZl9JUjZEaFFPVkRDZTNJclNocWt4S2tTSVU0ZmNVU0w1REN3b0U3OGRaRjZ5YWxhV0J0NnYyQmxxakQtZjlTcA== returned response: <Response [200]>
+2020-08-05 18:41:05,954 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03&max_id=QVFCMEVTbVFUQW4wUFhwVFdjc0pGSG1pT21PNTFPWnNiV1pjbndqQTNCOUtRdlduQ3RPUWk3WThYMEFMTlRQcUZoV2JuWDRuT2xfdzdMLUV6MWZQZnlLcw== returned response: <Response [200]>
+2020-08-05 18:41:06,196 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03&max_id=QVFCcUtzZ2FObHppckJmRjBFMmJDWmxodjVZWHNJeUd0c05HdG9FRE8xdUpHclhZVUZuNDdfcmxnc3VheDBNcmZXRHZXck95aVVndVBfTDdCQTI4cENONw== returned response: <Response [200]>
+2020-08-05 18:41:22,491 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/2440677292/info/ returned response: <Response [200]>
+2020-08-05 18:41:22,786 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03 returned response: <Response [200]>
+2020-08-05 18:41:23,103 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03&max_id=QVFDSXhydVRNVVQ4dS1DMDhfSGZOakVRaWtycVY4MmdlQ1hDbjkzcV81MDd6NFh6OE82dWpVUEpyV3lMNVpQSF9tZUtQWklKVFlTSFZIZ1dtdlVnSDNMYg== returned response: <Response [200]>
+2020-08-05 18:41:23,349 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03&max_id=QVFCU1JHdjRxWTFfcExCTHRkTmxNYllONUxfR3NpajZ4WkV1U3JFZW9nWC1QRnMydWt1cE5PRkkzeXFtdHd3VDZsaWxSY0x3aXFvVWh2NkgzWlNMTmdMTQ== returned response: <Response [200]>
+2020-08-05 18:41:23,608 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03&max_id=QVFDeXdPR2h0TTdDVEU1Q09qbExTR2lyWE4zRklFd1FPTldCUFFKWFFyWDZqOXoySXJFSmRTUVRFOUhMeW1MT3JOc3EwSFdZQkRFYmw1ZXNVSzZQZGdTbA== returned response: <Response [200]>
+2020-08-05 18:41:23,853 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/2440677292/followers/?rank_token=38579043486_9c721ac7-9e77-4bba-9152-ac7c7c0ecd03&max_id=QVFCb2YwcFRRRkpDMVQ3VW1vM0lxczZZWTlkdlh3VW5UekxwekNNdXlvN2Z2N25ZQ2hhVDNXc0lFbHdTNVBXOFppMm8tY1NxMWlpanY2bzdWVklsVXdBZg== returned response: <Response [200]>
+2020-08-05 18:41:48,495 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/puppies4nations.checkpoint
+2020-08-05 18:41:48,495 - instabot version: 0.117.0 (bot) - INFO - Total follows: 10/89
+2020-08-05 18:41:48,495 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 6/93
+2020-08-05 18:41:48,499 - instabot version: 0.117.0 (bot) - INFO - Total requests: 365

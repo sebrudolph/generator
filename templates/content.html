@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+	<h1 class="h3 mb-0 text-gray-800">Supervise your future Contents - {{ request.user }}</h1>
+</div>
+
+<div >
+{% for obj in info_list %}
+	<p class="card-text">{{ obj }}</p>
+{% endfor %}
+</div>
+
+
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h2> Your Contents </h2>
+      <div class="card-columns">
+		{% for obj in object_list %}
+			<div class="card" style="width: 18rem;">
+	  			<img src="{{ obj.displayUrl }}" class="card-img-top" alt="content">
+	  			<div class="card-body">
+	    			<h6 class="card-title">Source Channel: {{ obj.channel_taken }}</h6>
+	    			<p class="card-text">Likes: {{ obj.likes }}</p>
+					<a href='{{ obj.url_list }}' class="btn btn-primary btn-lg btn-block" target="_blank">Original Content</a>
+					<a href='{{ obj.id }}/delete-content' class="btn btn-secondary btn-lg btn-block" >Delete Content</a>  		
+				</div>
+			</div>
+		{% endfor %}
+	</div></div></div>
+		<div class="pagination">
+		    <span class="step-links">
+		        {% if page_obj.has_previous %}
+		            <a href="?page=1">&laquo; first</a>
+		            <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+		        {% endif %}
+
+		        <span class="current">
+		            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+		        </span>
+
+		        {% if page_obj.has_next %}
+		            <a href="?page={{ page_obj.next_page_number }}">next</a>
+		            <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+		        {% endif %}
+		    </span>
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+{% endblock %}
+
+
+Pagination script for later
+
+

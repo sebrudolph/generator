@@ -1,0 +1,20 @@
+2020-08-11 17:09:03,795 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-08-11 17:09:03,795 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\Gebruiker\Desktop\dev\channel_generator\venv\lib\site-packages\instabot\bot\bot.py
+2020-08-11 17:09:04,526 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-08-11 17:09:04,527 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-08-11 17:09:04,527 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=6dd8ed9a-deb5-4a4d-b418-400b84fbffbf
+- uuid=138306be-87ad-42de-9a7d-0851ac58dfbc
+- client_session_id=10497f5f-3192-4cbc-9a04-9767496ed05d
+- device_id=android-a4201e920dd79d83
+2020-08-11 17:09:04,528 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-08-11 17:09:06,226 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-08-11 17:09:06,768 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-08-11 17:09:06,769 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'rolexasajewelry'!
+2020-08-11 17:09:06,769 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry.checkpoint
+2020-08-11 17:09:26,626 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-08-11 17:09:26,840 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-08-11 17:09:26,845 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'static/img/108379973_571447076862144_5575655932862729565_n.jpg' is uploaded.
+2020-08-11 21:49:59,679 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\Gebruiker\Desktop\dev\channel_generator\generator/config/rolexasajewelry.checkpoint
+2020-08-11 21:49:59,680 - instabot version: 0.117.0 (bot) - INFO - Total requests: 41

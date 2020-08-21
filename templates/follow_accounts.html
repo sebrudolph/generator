@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+	<h1 class="h3 mb-0 text-gray-800">Change your Follow Accounts - {{ request.user }}</h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      	<h5> Total Accounts: {{ accounts_database }} </h5>
+      	<h5> Total Followers: {{ followers_database }} </h5>
+      	<p> Please don't add accounts with more than 8.000 followers. The maximum number of followers to fetch per day is 8.000. </p>
+      	<form method='post' action='' enctype='multipart/form-data'>{% csrf_token %}
+  		<div class="form-group">
+   		 <label for="exampleInputEmail1">Add a new Account</label> {{ form.channel_account }}
+  		</div>
+  		<button type="submit" class="btn btn-primary">Submit Account</button>
+		</form>
+
+			{% for obj in object_list %}
+               <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Account: {{ obj.channel_account }}</h6>
+                </div>
+                <div class="card-body">
+						Account followers: {{ obj.account_followers }} <br/>
+						Account followers followed: {{ obj.account_followers_followed }}  <br><br>
+						 
+                          <div class="progress progress-sm mr-2">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: {{ obj.progress }}%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+						<br>
+                  	<a href='{{ obj.id }}/fetch' class="btn btn-primary">Fetch Followers</a>
+					<a href='{{ obj.id }}/delete-users' class="btn btn-primary">Delete Followers</a>
+					<a href='{{ obj.id }}/delete' class="btn btn-primary">Delete Account</a>
+                </div>
+              </div>
+            {% endfor %}
+	<div class="pagination">
+		<span class="step-links">
+		{% if page_obj.has_previous %}
+			<a href="?page=1">&laquo; first</a>
+			<a href="?page={{ page_obj.previous_page_number }}">previous</a>
+			{% endif %}
+
+			<span class="current">
+			Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+			</span>
+
+			{% if page_obj.has_next %}
+			<a href="?page={{ page_obj.next_page_number }}">next</a>
+			<a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+		{% endif %}
+		</span>
+	</div>
+</div>
+
+
+
+
+{% endblock %}
