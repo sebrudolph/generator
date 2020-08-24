@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'i^18wbu3v=xkigdzx429p_zia))bd1g^4ta^ivx%vjq41srk9*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1"]
+ALLOWED_HOSTS = ["channel.hirestallions.com"]
 
 
 # Application definition
@@ -129,15 +129,12 @@ STATICFILES_DIRS = [
     #'/var/www/static/',
 ]
 
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_cdn")
+#STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_cdn")
 
 
 # CELERY STUFF
 CELERY_BROKER_URL = 'redis://h:pa1ea46273db9878ac2f8ad8ad5b59cac786f60b6829eabfb50d1697fe0baaac1@ec2-54-220-88-21.eu-west-1.compute.amazonaws.com:26789'
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
-#CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
-#CELERY_RESULT_BACKEND = 'redis://localhost:6379'
 
-#CELERY_RESULT_SERIALIZER = 'json'
-#CELERY_TIMEZONE = 'Africa/Nairobi'
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
