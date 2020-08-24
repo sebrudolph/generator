@@ -129,7 +129,7 @@ STATICFILES_DIRS = [
     #'/var/www/static/',
 ]
 
-#STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_cdn")
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_cdn")
 
 
 # CELERY STUFF
@@ -137,4 +137,4 @@ CELERY_BROKER_URL = 'redis://h:pa1ea46273db9878ac2f8ad8ad5b59cac786f60b6829eabfb
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 
-STATIC_ROOT = os.path.join(BASE_DIR, "static/")
+#STATIC_ROOT = os.path.join(BASE_DIR, "static/")
