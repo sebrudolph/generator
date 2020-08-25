@@ -25,7 +25,7 @@ SECRET_KEY = 'i^18wbu3v=xkigdzx429p_zia))bd1g^4ta^ivx%vjq41srk9*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["channel.hirestallions.com"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
